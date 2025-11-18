@@ -31,3 +31,8 @@
 .icon-arrow-left2:before {
   content: "\ea40";
 }
+
+.small-text{
+  font-size: 12px !important;
+}
+

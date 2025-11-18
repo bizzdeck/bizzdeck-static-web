@@ -1707,7 +1707,7 @@ a:hover {
 .saas_list li {
   padding-left: 45px;
   position: relative;
-  font-size: 16px;
+  font-size: 12px;
   color: #1e2a3b;
   font-weight: 600;
   margin-bottom: 14px;
@@ -2222,7 +2222,7 @@ h2.wow.fadeInUp.home_5_testi {
   padding: 8px;
 }
 .features_tab_inner .nav .nav-item {
-  width: 16.6666666667%;
+  width: 20%;
 }
 .features_tab_inner .nav .nav-item .nav-link {
   padding: 15px 15px;
@@ -2236,9 +2236,9 @@ h2.wow.fadeInUp.home_5_testi {
   width: 100%;
 }
 .features_tab_inner .nav .nav-item .nav-link .icon {
-  width: 46px;
+  width: 50px;
   height: 46px;
-  border-radius: 50%;
+  border-radius: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3290,6 +3290,9 @@ img.about_mission_img {
   transition: all 0.3s linear;
   background: #fff;
   cursor: pointer;
+  /* height: 770px; */
+  display: flex; 
+  flex-direction: column; 
 }
 .saas_price_item .price_header {
   margin-bottom: 25px;
@@ -3308,7 +3311,7 @@ img.about_mission_img {
   margin-bottom: 40px;
 }
 .saas_price_item ul li {
-  font-size: 18px;
+  font-size: 14px;
   font-family: var(--saas-Inter);
   color: #344054;
   line-height: 30px;
@@ -3390,6 +3393,7 @@ img.about_mission_img {
   border: 0px;
   overflow: hidden;
   border-radius: 16px;
+  height: 100%;
 }
 .price_content .saas_price_item:before {
   content: "";
@@ -3466,10 +3470,12 @@ img.about_mission_img {
   margin-bottom: 10px;
 }
 .price_content .saas_price_item ul li {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 25px;
   color: #fff;
   margin-bottom: 12px;
+  padding-left: 30px;
+  text-indent: -30px;
 }
 .price_content .saas_price_item ul li i {
   font-size: 14px;
@@ -3992,7 +3998,7 @@ img.about_mission_img {
 
 .contact_info_item {
   display: flex;
-  max-width: 300px;
+  max-width: 350px;
   margin-top: 20px;
 }
 .contact_info_item .icon {
