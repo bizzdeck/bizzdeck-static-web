@@ -189,6 +189,7 @@
   .saas_features_img_two img,
   .app_promo_area img {
     max-width: 100%;
+    border-radius: 12px;
   }
   .saas_banner_content h1 {
     font-size: 60px;

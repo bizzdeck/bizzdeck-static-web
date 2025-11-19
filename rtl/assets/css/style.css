@@ -1756,6 +1756,9 @@ h2.wow.fadeInUp.home_5_testi {
 .feature_item_inner .saas_features_img_two {
   position: relative;
 }
+.feature_item_inner .saas_features_img_two .img_one {
+  border-radius: 12px;
+}
 .feature_item_inner .saas_features_img_two .img_two {
   position: absolute;
   right: 0;
